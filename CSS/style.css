@@ -1,0 +1,396 @@
+    body{ /*checjked*/
+    
+     margin:0px;
+     position: relative;
+     font-family: 'Nunito', sans-serif;
+     color:#745f35;
+     font-family: 'Source Sans Pro', sans-serif;
+     background-image: url("C:/Users/Ραφαελα/Web Developement/ProductPreview/images/photo.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+           
+    }
+    .login-Container{ /*the main container has 2 containers inside */
+        width: 100%; /*take advantage all the screen*/
+        display: table;/*this mean that this contairer will be like a table*/
+
+    }
+    .left-side, .right-side {
+        display: table-cell;
+        padding: 16px;
+      }
+      
+      .left-side {
+        width: 75%;
+      }
+      
+      .right-side {
+        width: 25%;
+        text-align: center; /* Center the child element horizontally */
+      }
+      
+      .centered-content {
+        display: inline-block; /* Allow horizontal centering */
+        text-align: left; /* Reset text alignment to left */
+      }
+      .LoginForm{ /*afora tin forma */
+        padding-top:10px;
+        padding-left:30px;
+        padding-right:30px;
+        padding-bottom:20px;
+        margin-bottom: 10px;
+        background-color: #F9F5EB;
+        border-radius: 25px;
+      }
+      .loginarea{
+        height: 30px;
+        width: 200px;
+        
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+      }
+    .backup-container{
+        padding-bottom: 200px;
+        padding-top: 100px;
+    }
+    
+    #specialh2{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #specialh3{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #h3-loginPage{
+        
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            height: 220px;
+            width: 900px;
+            padding-bottom: 0px;
+            
+    }
+
+    .google-signin , .SignInButton {
+        background-color: #ffffff;
+        color: #745f35;
+        border: 2px solid #757575;
+        border-radius: 4px;
+        padding: 8px 16px;
+        font-size: 16px;
+        text-align: center;
+      }
+      
+      .google-signin i {
+        margin-right: 8px;
+        color: #757575;
+        font-size: 24px;
+      }
+
+
+    .header-container::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .first-container::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    h2{
+        width: 50%;/*to h2 tha exei auto to euros*/
+        text-align: center;/*i stixisi tou kimenou tha eine sto kentro*/
+        padding-left: 15.625rem;
+        padding-right: 15.625rem;
+        padding-top: 6.25rem;
+        padding-bottom: 6.25rem;
+        margin:0;
+        
+        
+        
+    }
+    .TOP-PAGE{
+        margin-top: 100px; 
+
+    }
+    .btn {
+        -webkit-border-radius: 14;
+        -moz-border-radius: 14;
+        border-radius: 14px;
+        font-family: Arial;
+        color: #f2eff2;
+        font-size: 18px;
+        background: #C8B6A6;
+        padding: 8px 11px 8px 11px;
+        text-decoration: none;
+    }
+    
+    .btn:hover {
+        background: #A4907C;
+        text-decoration: none;
+    }
+    .home-intro{
+        max-width: 900px;
+        margin:0 auto;
+        padding:60px;
+    }
+   
+ a{ /**checked**/
+     text-decoration:none; /*In order all hyperlinks not being underlined*/
+     
+     color:#6e5013;
+     font-weight: bold;
+     
+ }
+ .first-container{
+     
+     /**display: inline;**/
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;/*dynamic width.it depends on the screen*/
+     height:100%;   
+     
+ }
+ body {
+     
+     /**height:400PX;**/
+     /**position: relative;**/
+     background-position: center;
+     background-size: cover;
+    
+ }
+ 
+ .header-container::after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .first-container::after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+ 
+ .btn {
+     -webkit-border-radius: 14;
+     -moz-border-radius: 14;
+     border-radius: 14px;
+     font-family: Arial;
+     color: #f2eff2;
+     font-size: 18px;
+     background: #C8B6A6;
+     padding: 8px 11px 8px 11px;
+     text-decoration: none;
+   }
+   
+.material-symbols-outlined {
+    height: 10px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+   
+ .btn:hover {
+     background: #A4907C;
+     text-decoration: none;
+   }
+ .home-intro, h3 ,h2, second-container {
+     max-width: 900px;
+     margin:0 auto;
+     padding:60px;
+     padding-top: 10px;
+     
+ }
+
+ p{
+     line-height:25px;
+     font-weight: 500;
+ }
+ h3,h2 , .footer{ 
+    font-size: 25px;
+    width: 50%;/*to h2 tha exei auto to euros*/
+     text-align: center;/*i stixisi tou kimenou tha eine sto kentro*/
+     
+     
+ }
+ .p{
+    font-size: 50px;
+ }
+ #table  ,h3{
+     padding-top: 0px;
+ }
+ h3{
+     padding-top: 60px;
+ }
+ 
+ .table-img{
+     width:350px;
+     height: 250px;
+     padding: 10px;
+ }
+ #login:hover{  /**checked**/
+     /*when you hover over the login hyperlink,to change the color */
+     color:aliceblue;
+ }
+ .login{
+    padding-left: 30px;
+    padding-right: 20px;
+    
+
+ }
+ h1{
+     font-family: 'Pacifico', 'cursive';
+     font-size: 60px;
+ }
+ h2{
+     font-family: 'Pacifico', 'cursive';
+     font-size: 40px;
+ }
+ h3{
+    font-family: 'Pacifico', 'cursive';
+
+ }
+ #h1style ,.selectors{ /*checked*/
+     display: inline; /* to be in the same line*/
+ 
+ }
+ #h1style{
+     margin: 0;
+   text-align: left;
+   margin-left:15px;
+ }
+ 
+ .selectors-container{
+     /*display: inline-block;*/
+     margin: 0 auto;
+     
+ 
+ }
+.header-container{ /**checked**/
+     /*background-color:#A4907C; /*background color of the header */
+     background: linear-gradient(#6d7861, #A9AF7E);
+     margin-top:0px; /*minimize the distance between body and header */
+     padding-bottom: 10px;
+     position:sticky; /*the header will stick if you scroll down the page*/
+     width: 100%;/*dynamic width.it depends on the screen*/
+     height:50px; /*static height.it can not change*/
+     /*extra i dont know if it works*/
+     position: fixed; /*gia na eine stathero*/
+     top: 0;
+     left: 0;
+     width: 100%;/*dynamic width.it depends on the screen*/
+     z-index: 999;
+     
+ }
+ #connectbackup{
+  
+        text-align: center;/*i stixisi tou kimenou tha eine sto kentro*/
+        padding-left: 15.625rem;
+        padding-right: 15.625rem;
+        padding-top: 6.25rem;
+        padding-bottom: 6.25rem;
+        margin:0;
+}
+
+ .header-paragraph{ /*CHECKED-DONT CHANGE IT*/
+     
+     display: inline; /*2 paragraphs in the same line*/
+     margin:15px 8px;
+ }
+ #leftheader{ /**CHECKED**/
+     float:left;/*this paragraph is in the left side of our site*/
+ }
+ 
+ #rightheader{ /**CHECKED**/
+     float:right;/*this paragraph is in the left side of our site*/
+     
+ }
+ .footer{
+     background: linear-gradient(#6d7861, #A9AF7E);
+     /*background-color:#A4907C; /*background color of the header */
+     /**height:400PX;**/
+     /**position: relative;**/
+     
+     
+     height:50px;
+     width: 100%;
+ }
+ 
+ 
+ .footer{ /*checked*/
+     /*επεξεργασια της κλασης bottom-container του tag div*/
+     
+     padding-top: 30px; /*Εσωτερικες αποστασεις-απο πανω  ok */
+     border-bottom-width: 100px; 
+     padding-bottom: 20px; /*ok*/
+     height: auto;
+ }
+ .footer-link{
+     border-left: 10px;
+     margin-left: 25px;
+     margin-right: 25px;
+ 
+ }
+ #copyright{
+     font-size:15px;
+ }
+ #qrcodephoto{
+    height:200px;
+     width:200px;
+     border-radius: 20px;
+     padding-top: 0px;
+ }
+ 
+ #countryselector, .x1{
+    border-radius: 5px; /* ορίζει στρογγυλεμένες γωνίες στο drop down selector */
+    padding: 2px;
+    font-size:medium;
+    margin-right: 10px;
+ }
+ 
+ .header-images{ /*CHECKED*/
+     width: 15px;
+     height:15px;
+     padding-left: 2px;
+     padding-right: 2px;
+ }
+ .attribution {  /*CHECKED*/
+     font-size: 11px; 
+     text-align: center; 
+ }
+ .attribution a { /*CHECKED*/
+     color: hsl(0, 16%, 43%); 
+ }
+ 
+ .selector,.selectors{ /*CHECKED*/
+     background: linear-gradient(#6d7861, #A9AF7E);
+     font-style: normal;
+     font-family: 'Noto Color Emoji', 'Segoe UI Emoji', sans-serif;
+     margin-right: 30px;
+     margin-left: 10px; /*distance from left side*/
+     color:#745f35; /*color fonts*/
+     padding:10px; /*increace internal space*/
+     border-radius: 5px; /* ορίζει στρογγυλεμένες γωνίες στο drop down selector */
+     padding: 5px;
+     font-size:medium;
+     text-align: center;
+     
+ }
+ #lastcontainer{
+    font-size: 20px;
+}
+.footer{
+    width: 100vw;
+    margin-left: 0px;
+    margin-right:0px;
+}
